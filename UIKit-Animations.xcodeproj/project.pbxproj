@@ -14,6 +14,7 @@
 		0C5400B823E47FA600294148 /* AnimationsTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5400B723E47FA600294148 /* AnimationsTabController.swift */; };
 		0C5400BA23E4807500294148 /* SampleAnimationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5400B923E4807500294148 /* SampleAnimationsController.swift */; };
 		0C5400BC23E480A100294148 /* ConstraintsAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5400BB23E480A100294148 /* ConstraintsAnimationController.swift */; };
+		0C5400BE23E486BE00294148 /* SampleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5400BD23E486BE00294148 /* SampleAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0C5400B723E47FA600294148 /* AnimationsTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsTabController.swift; sourceTree = "<group>"; };
 		0C5400B923E4807500294148 /* SampleAnimationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationsController.swift; sourceTree = "<group>"; };
 		0C5400BB23E480A100294148 /* ConstraintsAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsAnimationController.swift; sourceTree = "<group>"; };
+		0C5400BD23E486BE00294148 /* SampleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				0C5400A523E47E2E00294148 /* SceneDelegate.swift */,
 				0C5400B723E47FA600294148 /* AnimationsTabController.swift */,
 				0C5400B923E4807500294148 /* SampleAnimationsController.swift */,
+				0C5400BD23E486BE00294148 /* SampleAnimationView.swift */,
 				0C5400BB23E480A100294148 /* ConstraintsAnimationController.swift */,
 				0C5400AC23E47E3100294148 /* Assets.xcassets */,
 				0C5400AE23E47E3100294148 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C5400BA23E4807500294148 /* SampleAnimationsController.swift in Sources */,
+				0C5400BE23E486BE00294148 /* SampleAnimationView.swift in Sources */,
 				0C5400A423E47E2E00294148 /* AppDelegate.swift in Sources */,
 				0C5400B823E47FA600294148 /* AnimationsTabController.swift in Sources */,
 				0C5400A623E47E2E00294148 /* SceneDelegate.swift in Sources */,
