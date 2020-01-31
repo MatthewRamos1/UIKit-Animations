@@ -19,8 +19,11 @@ class AnimationsTabController: UITabBarController {
     }()
     
     private lazy var constraintsAnimationVC: ConstraintsAnimationController = {
-        let viewController = ConstraintsAnimationController()
-        viewController.tabBarItem = UITabBarItem(title: "Constraints Animations", image: UIImage(systemName: "2.circle"), tag: 1)
+        let constraintsAnimationStoryboard = UIStoryboard(name: "ConstraintsAnimation", bundle: nil)
+        guard let viewController = constraintsAnimationStoryboard.instantiateViewController(identifier: "ConstraintsAnimationController") as? ConstraintsAnimationController else {
+            fatalError("Could not load")
+        }
+        viewController.tabBarItem = UITabBarItem(title: "Constraints Animation", image: UIImage(systemName: "2.circle"), tag: 1)
         return viewController
     }()
 

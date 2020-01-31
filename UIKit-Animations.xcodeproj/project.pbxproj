@@ -15,6 +15,7 @@
 		0C5400BA23E4807500294148 /* SampleAnimationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5400B923E4807500294148 /* SampleAnimationsController.swift */; };
 		0C5400BC23E480A100294148 /* ConstraintsAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5400BB23E480A100294148 /* ConstraintsAnimationController.swift */; };
 		0C5400BE23E486BE00294148 /* SampleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5400BD23E486BE00294148 /* SampleAnimationView.swift */; };
+		0C5400C023E49B5B00294148 /* ConstraintsAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5400BF23E49B5B00294148 /* ConstraintsAnimation.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0C5400B923E4807500294148 /* SampleAnimationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationsController.swift; sourceTree = "<group>"; };
 		0C5400BB23E480A100294148 /* ConstraintsAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsAnimationController.swift; sourceTree = "<group>"; };
 		0C5400BD23E486BE00294148 /* SampleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAnimationView.swift; sourceTree = "<group>"; };
+		0C5400BF23E49B5B00294148 /* ConstraintsAnimation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConstraintsAnimation.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				0C5400B923E4807500294148 /* SampleAnimationsController.swift */,
 				0C5400BD23E486BE00294148 /* SampleAnimationView.swift */,
 				0C5400BB23E480A100294148 /* ConstraintsAnimationController.swift */,
+				0C5400BF23E49B5B00294148 /* ConstraintsAnimation.storyboard */,
 				0C5400AC23E47E3100294148 /* Assets.xcassets */,
 				0C5400AE23E47E3100294148 /* LaunchScreen.storyboard */,
 				0C5400B123E47E3100294148 /* Info.plist */,
@@ -133,6 +136,7 @@
 			files = (
 				0C5400B023E47E3100294148 /* LaunchScreen.storyboard in Resources */,
 				0C5400AD23E47E3100294148 /* Assets.xcassets in Resources */,
+				0C5400C023E49B5B00294148 /* ConstraintsAnimation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

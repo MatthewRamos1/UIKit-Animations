@@ -22,6 +22,7 @@ class SampleAnimationView: UIView {
         imageView.image = UIImage(named: "swift-logo")
         imageView.contentMode = .scaleAspectFit
         imageView.isHidden = true
+        imageView.clipsToBounds = true
         return imageView
     }()
     
