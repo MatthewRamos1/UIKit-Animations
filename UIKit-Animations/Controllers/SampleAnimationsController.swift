@@ -32,11 +32,11 @@ class SampleAnimationsController: UIViewController {
     }
     
     private func scaleAnimation() {
-        UIView.animate(withDuration: 0.3, delay: 0.0, options: [], animations: {
+        UIView.animate(withDuration: 1, delay: 0.0, options: [], animations: {
             self.sampleAnimationsView.pursuitLogo.transform = CGAffineTransform(scaleX: 20.0, y: 20.0)
             self.sampleAnimationsView.pursuitLogo.alpha = 0.0
         }) { (done) in
-            UIView.animate(withDuration: 0.3) {
+            UIView.animate(withDuration: 1) {
                 self.sampleAnimationsView.swiftLogo.isHidden = false
                 self.sampleAnimationsView.swiftLogo.layer.cornerRadius = self.sampleAnimationsView.swiftLogo.bounds.size.width / 2.0
             }

@@ -22,7 +22,9 @@ class ConstraintsAnimationController: UIViewController {
         //when we change the constraints in iOS and we need this change to be animated we only need to animate self.view.layoutIfNeeded and the animation will take place
         UIView.animate(withDuration: 0.8, delay: 0.0, usingSpringWithDamping: 0.4, initialSpringVelocity: 5.0, options: [.curveEaseIn], animations: {
             self.view.layoutIfNeeded()
-        }, completion: nil)
+        }) { (done) in
+            
+        }
     }
     
     @IBAction func animateDown(_ sender: UIButton) {

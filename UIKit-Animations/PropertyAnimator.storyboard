@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Property Animator Controller-->
+        <scene sceneID="aI6-cY-6cb">
+            <objects>
+                <viewController storyboardIdentifier="PropertyAnimatorController" id="eqH-K9-5W3" customClass="PropertyAnimatorController" customModule="UIKit_Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ne2-ar-u6p">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="duck" translatesAutoresizingMaskIntoConstraints="NO" id="Vfa-5U-b1u">
+                                <rect key="frame" x="103.5" y="344.5" width="207" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Vfa-5U-b1u" secondAttribute="height" multiplier="1:1" id="ixB-cJ-Xbg"/>
+                                </constraints>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="y1g-Qn-HAw">
+                                <rect key="frame" x="38" y="710" width="338" height="31"/>
+                                <connections>
+                                    <action selector="sliderDidChange:" destination="eqH-K9-5W3" eventType="valueChanged" id="6or-O6-QYt"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Vfa-5U-b1u" firstAttribute="width" secondItem="ne2-ar-u6p" secondAttribute="width" multiplier="0.5" id="HQ6-6L-cAb"/>
+                            <constraint firstItem="NLP-ds-Eyp" firstAttribute="bottom" secondItem="y1g-Qn-HAw" secondAttribute="bottom" constant="122" id="RZs-s2-vIH"/>
+                            <constraint firstItem="Vfa-5U-b1u" firstAttribute="centerX" secondItem="ne2-ar-u6p" secondAttribute="centerX" id="YHM-4t-nB3"/>
+                            <constraint firstItem="Vfa-5U-b1u" firstAttribute="centerY" secondItem="ne2-ar-u6p" secondAttribute="centerY" id="bGg-FS-Ecd"/>
+                            <constraint firstItem="y1g-Qn-HAw" firstAttribute="leading" secondItem="NLP-ds-Eyp" secondAttribute="leading" constant="40" id="t02-BM-RyY"/>
+                            <constraint firstItem="NLP-ds-Eyp" firstAttribute="trailing" secondItem="y1g-Qn-HAw" secondAttribute="trailing" constant="40" id="zld-fo-2ja"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NLP-ds-Eyp"/>
+                    </view>
+                    <connections>
+                        <outlet property="duckImage" destination="Vfa-5U-b1u" id="szD-R7-NnI"/>
+                        <outlet property="slider" destination="y1g-Qn-HAw" id="Uq5-Uj-Wzt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F7o-JT-lPV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528.98550724637687" y="-143.30357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="duck" width="800" height="800"/>
+    </resources>
+</document>
